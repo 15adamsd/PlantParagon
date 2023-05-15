@@ -1,0 +1,90 @@
+   /*
+   color scheme is:
+        #DDBEA9
+        #FFE8D6
+        #B7B7A4
+        #A5A58D
+        #6B705C
+        #CB997E
+    */
+
+    .container {
+        display: flex;
+    }
+
+    header {
+        position: sticky;
+        top: 0;
+      }
+
+    .leftC {
+        width: 400px;
+        height: 550px;
+        margin-left: -20px;
+        margin-top: 60px;
+        background:#DDBEA9;
+        color: #6B705C;
+        padding: 15px;
+    }
+
+    .rightC {
+        margin-left: 220px;
+        margin-top: 32px;
+
+    }
+
+    .randC {
+        width: 280px;
+        height: 235px;
+        margin-top: 330px;
+        margin-left: -380px;
+        background: #6B705C;
+        padding-top: 50px;
+        padding-left: 70px;
+    }
+
+    .price {
+        margin-left: 140px;
+        font-style: bold;
+        font-size: 50px;
+    }
+
+    .coolbutton {
+        height: 50px;
+        width: 200px;
+        background: #B7B7A4;
+        color: #FFE8D6;
+        font-size: 30px;
+    }
+
+    .coolbutton:hover {
+        background-color: #DDBEA9;
+    }
+
+    .head {
+        color:  #FFE8D6;
+        font-weight: bolder;
+        font-size: 40px;
+    }
+    .sub {
+        font-weight: bolder;
+        font-size: 20px;
+        color:#CB997E;
+    } 
+
+    .thx {
+        margin-top: 200px;
+        color: #6B705C;
+        font-weight: bolder;
+        font-size: 50px;
+        text-align: center;
+      }
+      .oth {
+        color: #FFE8D6;
+        font-size: 30px;
+        font-weight: bolder;
+        text-align: center;
+      }
+
+    
+    

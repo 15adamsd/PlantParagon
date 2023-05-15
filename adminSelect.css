@@ -1,0 +1,14 @@
+/*CSS file for admin side adjustments, made for easier legibility
+Only to be used with selecting tables, not with forms.*/
+
+h1 {
+    font-size: 50px;
+    margin: 15px;
+}
+h3 {
+    margin: 15px;
+}
+button {
+    font-size: 25px;
+    margin: 15px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @font-face {
+            font-family: raster;
+            src: url(raster.otf);
+        }
+        html {
+            margin-top: -15px;
+        }
+        body {
+            margin:0;
+            padding: 0;
+        }
+        .logo {
+            width: 375px;
+            height:115px;
+            font-family: raster;
+            color: #6B705C;
+            font-size: 70px;
+            padding-left: 100px;
+            padding-right: 550px;
+        }
+
+        li a, .dropbtn {
+            color: white;
+            text-align: center;
+            font-size: 22px;
+            font-weight: bolder;
+            text-decoration: none;
+        }
+
+        li a:hover, .dropbtn {
+            color: #DDBEA9;
+        }
+
+        .noHover {
+            pointer-events: none;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+           display: none;
+           position: absolute;
+           background-color:  #DDBEA9 ;
+           min-width: 170px;
+           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+           z-index: 0;
+        }
+
+        .dropdown-content a {
+          padding: 20px;
+          font-size: 20px;
+          text-decoration: none;
+          text-align: left;
+        }
+
+        .dropdown-content a:hover {color:#FFE8D6;}
+
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
+
+        .navigation {
+          list-style: none;
+          background: #FFE8D6;
+          display: flex;
+          justify-content: flex-start;
+          width: 1400px;
+          height: 73px;
+        }
+
+        .navigation a {
+          text-decoration: none;
+          display: block;
+          padding-right: 20px;
+          padding-top: 35px;
+          padding-bottom: 12px;
+          color: #6B705C;
+        }
+    </style>
+</head>
+<body>
+        <ul class="navigation">
+            <li class="logo">PlantParagon</li>
+            <li><a href="index.php">Home</a></li>
+            <li class="dropdown"><a class="dropbtn">Plants</a>
+                    <div class="dropdown-content">
+                        <a href="single_product.php?id=19">Ponytail Palm</a>
+                        <a href="single_product.php?id=20">African Violet</a>
+                        <a href="single_product.php?id=21">Purple Orchid</a>
+                        <a href="single_product.php?id=22">Boston Fern</a>
+                        <a href="single_product.php?id=23">Venus Flytrap</a>
+                        <a href="single_product.php?id=24">Tuscan Blue Rosemary</a>
+                    </div>
+            </li>
+            <li><a href="multi_product.php">All Plants</a></li>
+            <li><a class="noHover">|</a></li>
+            <li><a href="login_or_register.php">Log in</a></li>
+        </ul>
+</body>
+</html>
